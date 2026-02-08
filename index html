@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>My first HTML page.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Anna Todorova</h1>
+        <p class="hero-title">Aspiring Backend Developer (Python) </p>
+        <p class="hero-text">Learning web development step by step and building
+            projects to grow my skills.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="https://github.com/annastatora" target="_blank" class="btn primary">
+                View GitHub
+            </a>
+            <a href="#contact" class="btn secondary">
+                Contact Me
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>About Me.</h2>
+            <p>I am learning HTML.</p>
+        </section>
+
+
+
+
+        <section class="section">
+            <h2>Why I am learning programming.</h2>
+            <p>I want to become a backend developer.</p>
+        </section>
+
+        <section class="section">
+            <h2>Learning Journey.</h2>
+            <ul class="journey-list">
+                <li>
+                    <strong>Started:</strong>Learning Python fundamentals and object oriented programming,
+                    building small practice projects.
+                </li>
+                <li>
+                    <strong>Now: </strong> Improving my HTML and CSS skills and starting to
+                    learn backend web development with Gjango.
+                </li>
+                <li>
+                    <strong>Next: </strong> Creating my first backend-driven web projects and
+                    gradually moving toward full-stack development.
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Tech Stack</h2>
+            <ul class="tech-stack">
+                <li><strong>Language: </strong> Python (fundamentals, OOP)</li>
+                <li><strong>Web: </strong> HTML5, CSS</li>
+                <li><strong>Backend: </strong> Gjango (currently learning)</li>
+                <li><strong>Tools: </strong> Git, GitHub, Vs Code</li>
+
+
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>My skills.</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact me.</h2>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Visit my Github:
+            <a href="https://github.com/annastatora" target="_blank" rel="noopener noreferrer">
+                github.com/annastatora
+            </a>
+
+        </p>
+    </footer>
+
+</body>
+
+</html>
